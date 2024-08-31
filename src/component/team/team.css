@@ -1,0 +1,51 @@
+.team-complete{
+    background-color: #f7f4f1;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  
+}
+.team-complete .find-home-title{
+  margin: 1rem;
+}
+.our-team{
+    width: 90%;
+    margin: 5% auto;
+}
+.meet-our-team{
+    font-size: 2rem;
+    font-family: roboto;
+    font-weight: 550;
+    text-align: left;
+}
+.meet-our-team p{
+    font-size: 1.2rem;
+    font-family: roboto;
+    font-weight: 300;
+  
+}
+
+@media screen and (max-width:767px){
+    .team-complete{
+            overflow-x: hidden;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+    }
+    .our-team{
+        width: 16.3rem;
+        margin: 5% 20%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1034px){
+    .team-complete{
+        overflow-x: hidden;
+        min-height: 100vh;
+    }
+    .our-team{
+        max-width: 85%;
+        padding:0  7%;
+    }
+   
+}

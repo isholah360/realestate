@@ -1,0 +1,44 @@
+
+.testy-title{
+    text-align: left;
+    padding: 3rem 5% 0 5%;
+    font-size: clamp(2vw, 2vw + .35rem, 3rem);
+    font-weight: 550;
+}
+.com-testimomy{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+    padding: 3rem 5% 5rem 5%;
+}
+
+.testy-card{
+    border-style: solid;
+    border-color: #B19777 ;;
+    border-width: 1px;
+    text-align: center;
+    padding: 2rem 1.8rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.star-stack{
+    display: flex;
+    gap: .35rem;
+    font-size: 1.5rem;
+    color: #B19777 ;;
+}
+.mreview{
+    line-height: 2rem;
+}
+.mname{
+    font-size: clamp(1.85vw, 1.5vw + .35rem, 2rem);
+}
+@media screen and (max-width: 767px) {
+    .com-testimomy{
+        grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+      
+    }
+}

@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cursors{
+      position: fixed;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #B19777 ;;
+      transition: .1s;
+  }
+  .cursor2{
+  
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color:  #B19777 ;
+      pointer-events: none;
+      user-select: none;
+      border: 1px solid #B19777 ;
+      transition: .1s;
+  }
+  .hello{
+      font-size: .1rem;
+  }

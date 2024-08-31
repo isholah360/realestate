@@ -1,0 +1,157 @@
+.about-property{
+    width: 100%;
+    height: 90lvh;
+    position: relative;
+}
+.about-property img{
+    width: 100%;
+    height: 100%;
+}
+.property-cover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    position: absolute;
+    top: 0;
+}
+.descri{
+    color: ghostwhite;
+    width: 30%;
+    font-size: clamp(1.2vw, 1.5vw + .35rem, 1.4rem);
+    line-height: 2rem;
+    margin: 5% 5%;
+    padding: 2rem;
+    border-style: solid;
+    border-radius: 10px;
+}
+.propdetail{
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+   color: ghostwhite;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 2rem 5%;
+   gap: 1rem;
+   font-size: 1.5rem;
+}
+.prop-line{
+    width: 1rem;
+    rotate: 90deg;
+    color: gainsboro;
+}
+
+.propdetail button{
+   padding: .75rem 3em;
+   margin: 0 1rem;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: black;
+   color: gainsboro;
+   border-style: solid;
+   border-color:  #B19777 ;
+}
+.propdetail button :hover{
+    background-color:  #B19777 ;
+ }
+ .interiors{
+    padding: 3rem 5%;
+ }
+ .the-imgs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: .5rem;
+    
+ }
+ .the-art{
+    font-size: clamp(1.2vw, 1.2vw + .35rem, 1.5rem);
+    color: #B19777;
+ }
+ .the-interior{
+    font-size: clamp(2vw, 3vw + .35rem, 2.75rem);
+    font-weight: 550;
+    letter-spacing: 8px;
+    padding: 2rem 0;
+ }
+ .img-div img{
+    width: 100%;
+    height: 18rem;
+ }
+ .get-in-touch{
+    text-align: center;
+ }
+ .email-phone-add{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    justify-content: center;
+    text-align: center;
+ }
+ .help-form{
+    padding: 1.2rem 26%;
+    font-size: clamp(1.2vw, 1.2vw + .35rem, 1.5rem);
+ }
+ .email-phone-add .phone-numbers{
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    font-size: 1rem;
+ }
+ .filled-form{
+    padding: 0 25% 3rem 25%;
+ }
+ .firstInput{
+    margin: 0 2.1rem 0 0;
+ }
+ .filled-form form input{
+    padding: 1rem 3rem 1rem 1rem;
+    width: clamp(20vw, 22vw + 1rem, 20rem);
+ }
+ .filled-form form .email{
+    padding: 1rem 3rem 1rem 1rem;
+    width: 100%;
+ }
+ .messagearea{
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+ }
+ .filled-form button{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: black;
+    color:  #B19777;
+    border-style: none;
+ }
+ .filled-form button:hover{
+  
+    background-color: #B19777;
+    color: #fff;
+    
+ }
+ @media screen and (max-width: 1100px) {
+     .filled-form form input{
+        padding: 1rem 3rem 1rem 1rem;
+        width: clamp(100%, 22vw + 1rem, 20rem);
+     }
+}
+ @media screen and (max-width: 767px) {
+    .descri{
+        color: ghostwhite;
+        width: 60%;
+    }
+    .propdetail{
+       font-size: clamp(1.4vw, 1.5vw + .35rem, 1.4rem);
+       justify-content: center;
+    }
+    .filled-form{
+        padding: 0 5% 3rem 5%;
+     }
+     .filled-form form input{
+        padding: 1rem 3rem 1rem 1rem;
+        width: clamp(100%, 22vw + 1rem, 20rem);
+     }
+}

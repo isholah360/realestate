@@ -1,0 +1,108 @@
+.about-complete{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0 10%;
+    background-color: #f7f4f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-content{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    gap: 4rem;
+}
+.img-buffer{
+    min-width: 25vw;
+    height: 75vh;
+}
+.img-buffer .martin{
+    width: 100%;
+    height: 100%;
+}
+.content-buffer{
+    text-align: left;
+}
+.content-buffer .about-title{
+   font-size: 3em;
+   font-family: prata;
+   font-weight: 500;
+  
+}
+.content-buffer .about-name{
+    font-size: 1em;
+    font-family: prata;
+    letter-spacing: 8px;
+    color: #B19777 ;
+    margin: 1.2rem 0 1.8rem 0;
+ }
+ .content-buffer .about-body{
+    font-family: roboto, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7rem;
+ }
+ .content-buffer .about-town{
+    margin: 1.8rem 0;
+ }
+ .content-buffer .main-town{
+    font-weight: 600;
+    margin: 0 0 .5rem 0;
+ }
+ .about-watpp-skyp .watsapp{
+ }
+ .watsapp .media{
+    width: 1.5rem;
+    margin: 1.8rem 1.2rem 0 0;
+ }
+ .watsapp .media:hover{
+    
+ }
+ @media screen and (max-width:767px){
+    .img-content{
+        display: block;
+        overflow-x: hidden;
+    }
+    .img-buffer{
+       margin: 0 4%;
+    }
+    .content-buffer{
+       margin: 3rem 1rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1034px){
+    .content-buffer .about-title{
+        font-size: 2em;
+        font-family: prata;
+        font-weight: 500;
+       
+     }
+     .content-buffer .about-name{
+         font-size: .8em;
+         font-family: prata;
+         letter-spacing: 8px;
+         color: #B19777 ;
+         margin: 1.2rem 0 1.8rem 0;
+      }
+      .content-buffer .about-body{
+         font-family: roboto, Helvetica, sans-serif;
+         font-size: .85rem;
+         line-height: 1.7rem;
+      }
+      .content-buffer .about-town{
+         margin: 1.8rem 0 0 0;
+         font-size: .9rem;
+      }
+      .content-buffer .main-town{
+         font-weight: 600;
+         margin: 0 0 .5rem 0;
+      }
+      .about-watpp-skyp .watsapp{
+      }
+      .watsapp .media{
+         width: 1.2rem;
+         margin: 1.5rem 1.2rem 0 0;
+      }
+}

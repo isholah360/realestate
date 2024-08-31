@@ -1,0 +1,37 @@
+.comp-feature{
+    padding: 5rem 7%;
+    background-color: #f7f4f1;
+    text-align: left;
+    gap: 3rem  1rem;
+     width: 100vw;
+}
+.featurelist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 1.5rem 1rem;
+}
+.feat-title{
+    font-size: clamp(2vw, 2vw + .5rem, 3em);
+    padding: 0rem 0 1.5rem 0;
+}
+.comp_card{
+    text-align: left;
+}
+.com-symbol{
+    font-size: 3rem;
+    color: #B19777 ;
+}
+
+.comp_card .com-title{
+    font-size: clamp(1.35vw, 1.3vw + .35rem, 3rem);
+    padding: 1rem 0;
+}
+.com-content{
+    line-height: 1.75rem;
+}
+@media screen and (max-width:520px) {
+    .featurelist{
+        grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+     
+    }
+}

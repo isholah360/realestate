@@ -1,0 +1,92 @@
+html,
+html * {
+  cursor: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movable {
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+  user-select: none;
+  border: 1px solid #B19777 ;
+  position: absolute;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+.inner{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color:  #B19777 ;
+  pointer-events: none;
+  user-select: none;
+  border: 1px solid #B19777 ;
+  transition: .1s;
+}
+.movable.active {
+  background: #B19777 ;
+  width: 100px;
+  height: 100px;
+  opacity: .5;
+}
+
+.movable.active:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .movable.cursor-pointer:after {
+  content: "!";
+} */
+
+.movable.cursor-right:after {
+  content: ">";
+}
+
+.movable.cursor-left:after {
+  content: "<";
+}
+
+.sides {
+  position: relative;
+  background: lightblue;
+}
+
+.side-right,
+.side-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: transparent;
+  border: 0;
+  appearance: none;
+}
+
+.side-right {
+  right: 0;
+}
+.side-left {
+  left: 0;
+}

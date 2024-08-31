@@ -1,0 +1,60 @@
+.pay-page{
+    width: 100%;
+    padding: 3rem 5%;
+}
+.prop-img{
+    width: 100%;
+    height: 20rem;
+}
+.prop-img img{
+    width: 100%;
+    height: 100%;
+}
+.prop-detail{
+    text-align: left;
+    font-size: 1.2rem;
+    padding: .75rem 0;
+}
+.prop-facility{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    background: lightgray;
+    gap: .75rem;
+    padding: .75rem;
+}
+.bedd{
+    text-align: left;
+    font-size: 1.2rem;
+    gap: 2rem;
+    padding: .35rem 0;
+}
+.pay-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.cardetai{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0 1.5rem 1.5rem;
+}
+.pay-layout .card-form form input{
+    width: 90%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-width: 1px;
+    outline: none;
+}
+.pay-layout .card-form form .amount-pay{
+    width: 90%;
+    font-size: 1.2rem;
+    color: #B19777;
+    border-style: solid;
+    background-color: black;
+}
+.pay-layout .card-form form button{
+    width: 90%;
+    font-size: 1rem;
+    color: #B19777;
+}

@@ -1,0 +1,110 @@
+.find-home{
+    height: 90vh;
+    width: 100vw;
+    background-color: #f7f7f7;
+    padding: 1rem 5%;
+}
+.home-imgs{
+    width: 35vw;
+    padding: 0 .8rem;
+}
+.main-img-bg{
+    background-color: #e7e2dd;   
+    padding:.5rem;
+    height: 56.5vh;  
+}
+
+.actual-width{
+    max-width: 95vw;
+    margin: 3% auto;
+}
+.the-home-img{
+    height: 35vh;
+}
+.find-img{
+    width: 100%;
+    height: 100%;
+}
+.find-home-title{
+    text-align: left;
+    padding: 2.5rem 0 0 3rem;
+}
+.find-home-title .find-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: roboto;
+}
+.find-home-title p{
+    font-size: 1.5rem;
+    margin: 1rem 0 0 0;
+}
+.symbol-value{
+    padding: .8rem 0;
+}
+.symbol-value .main-bed{
+    width: 1.5rem;
+}
+.symbol-value .val{
+    font-size: .9rem;
+}
+.all-symbols .symbol-value{
+   display: flex;
+   align-items: center;
+   gap: .4rem;
+}
+.all-symbols{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1.8fr;
+    padding: 0 5%;
+}
+.all-symb-content{
+    width: 100%;
+    display: block;
+}
+.Apartment-type{
+    text-align: right; 
+    margin: 0.6rem .8rem 0rem 0;
+    font-weight: 600;
+}
+.apartment-typ{
+  text-align: left; 
+}
+@media screen and (max-width:767px){
+    .find-home{
+     overflow-x: hidden;
+     height: 95vh;
+           
+    }
+    .main-img-bg{
+        background-color: #f7f7f7;   
+        padding:.5rem;
+        height: 56vh;  
+    }
+    .find-home-title{
+        text-align: center;
+        padding: 2.5rem 1rem 0 3rem;
+    }
+    .home-imgs{
+        max-width: 80vw;
+        padding: 0 .5rem 0 1.5rem;
+    }
+    .main-img-bg{
+        background-color: #f7f7f7;  
+        padding:.5rem;
+        height:61vh;  
+    }
+    .the-home-img{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1034px){
+    .find-home{
+        overflow-x: hidden;
+        height: 95vh;   
+       }
+       .main-img-bg{
+        background-color: #f7f7f7;    
+        padding:.5rem;
+        height:58vh;  
+    }
+    }

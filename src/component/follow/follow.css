@@ -1,0 +1,69 @@
+.folow-compl{
+    padding: 5rem 7%;
+    display: flex;
+    justify-content: center;
+    gap: 7.5rem;
+}
+
+.folow-sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.folous{
+    font-size: clamp(1rem, 2vw + .3rem, 2rem);
+    font-weight: 550;
+}
+.follow-socails{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+    color: #B19777 ;
+    padding: 1rem 0;
+}
+.divider{
+    rotate: 90;
+    width: 1px;
+    background:  #B19777 ;
+    color: #B19777 ;;
+    width: 3px;
+}
+form input{
+  padding: .85rem .75rem;
+  margin: 1rem 0;
+}
+form button{
+    padding: .89rem .75rem;
+    margin: 1rem 0;
+    background: rgba(255, 255, 255, 0);
+    border-width: 1px;
+  }
+  .our-news{
+    padding: 1rem 0;
+  }
+  @media screen and (max-width:760px) {
+    .folow-compl{
+        gap: 5rem;
+    }
+    .folous{
+        font-size: clamp(4vw, 2vw + .3rem, 2rem);
+        font-weight: 550;
+    }
+   
+}
+@media screen and (max-width:560px) {
+    .folow-compl{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .divider{
+        display: none;
+    }
+    .folous{
+        font-size: clamp(5vw, 2vw + .3rem, 2rem);
+        font-weight: 550;
+    }
+}

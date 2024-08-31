@@ -1,0 +1,37 @@
+.main-brand{
+    width: 100vw;
+    background-color: #f7f7f7;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brands{
+    max-height: 10rem ;
+    width: 80vw;
+    margin: 0 20% 0 30%;    
+    background-color: #f7f7f7; 
+}
+.slick-prev, .slick-next {
+    display: none;
+}
+.slick-prev, .slick-next {
+    display: none; 
+}
+.flex-brand{
+  background-color: #f7f7f7;
+}
+@media screen and (max-width:767px){
+    .brands{
+        max-height: 15rem ;
+        width: 80vw;
+        margin: 15% 20% 12% 30%;    
+    }
+}
+@media screen and (min-width:768px) and (max-width:1034px){
+    .brands{
+        max-height: 15rem ;
+        width: 80vw;
+        margin: 5% 20%;    
+    }
+}
