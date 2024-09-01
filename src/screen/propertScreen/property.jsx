@@ -16,7 +16,7 @@ export default function Property() {
   const ref = useRef(null);
   const ref1 = useRef(null);
   const { id } = useParams();
-  console.log(id);
+
 
   const changeBg = () => {
     ref.current.style.background = " #B19777";
@@ -60,7 +60,7 @@ export default function Property() {
                         </div>
                         <hr className="prop-line" />
                         <div className="amount">{data.amt}</div>
-                        <Link to="/payment">
+                        <Link to={`/payment/${id}`}>
                           <button
                             onMouseEnter={changeBg}
                             onMouseLeave={changeDf}
@@ -144,7 +144,7 @@ export default function Property() {
                       <Link to="/thank">
                         <button>Send Message</button>
                       </Link>
-                      <Link to="/payment">
+                      <Link to={`/payment/${id}`}>
                         <button>Pay Rent</button>
                       </Link>
                     </form>

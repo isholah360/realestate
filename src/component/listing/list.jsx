@@ -6,18 +6,17 @@ import "./list-slick.css";
 import "./list-slick-theme.css";
 import { RiArrowDropRightLine,RiArrowDropLeftLine } from "react-icons/ri";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const {  style, onClick } = props;
   return (
     <div
-      className={className}
+      className="buttom buttom2"
       style={{
         ...style,
         display: "block",
-        background: "#e7e2dd",
         fontSize: "2rem",
-        color: "gray",
         textAlign:"center",
         justifyContent:"center",
         alignContent:"center"
@@ -31,23 +30,21 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const {  style, onClick } = props;
   return (
     <div
-      className={className}
+      className="buttom"
       style={{
         ...style,
         display: "block",
-        background: "#e7e2dd",
         fontSize: "2rem",
-        color: "gray",
         textAlign:"center",
         justifyContent:"center",
         alignContent:"center"
       }}
       onClick={onClick}
     >
-      <RiArrowDropLeftLine />{" "}
+      <RiArrowDropLeftLine />
     </div>
   );
 }
@@ -173,7 +170,9 @@ function List() {
               <Slider {...settings}>
                 {list.imgs.map((data) => (
                   <div key={data.id} className="slid-img">
+                    <Link to={`/property/${list.id}`}>
                     <img src={data} alt="" />
+                    </Link>
                   </div>
                 ))}
               </Slider>

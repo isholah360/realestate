@@ -8,6 +8,7 @@ import Pay from "./screen/payment/pay.jsx";
 import Thank from "./screen/thank/thank.jsx";
 import { store } from "./component/redux/store.js";
 import { Provider } from "react-redux";
+import Abouts from "./screen/about/about.jsx";
 
 
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/" element={<Home />} />
           <Route path="/property/:id" element={<Property />} />
           <Route path="/payment/:id" element={<Pay />} />
+          <Route path="/about" element={<Abouts />} />
           <Route path="/thank" element={<Thank />} />
         </Route>
       </Routes>

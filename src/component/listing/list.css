@@ -145,6 +145,24 @@
   display: none;
   font-size: 5rem;
 }
+.buttom{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  margin: 31% 1rem;
+  background: #e7e2dd;
+  color:gray 
+}
+.buttom2{ 
+  right: 0;
+  top: 0;
+}
+.buttom:hover{
+ background-color: rgb(201, 197, 197);
+ color: #fff;
+}
 @media screen and (max-width: 767px) {
   .subtitle-options {
     flex-direction: column;
