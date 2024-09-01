@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { homes } from "../find/findata";
 import "./list.css";
-import { set } from "mongoose";
 import Slider from "react-slick";
 import "./list-slick.css";
 import "./list-slick-theme.css";
